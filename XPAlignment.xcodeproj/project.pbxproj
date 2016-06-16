@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D6FD0D1D12531200864C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6FD0C1D12531200864C27 /* AppDelegate.swift */; };
+		A5D6FD0F1D12531200864C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D6FD0E1D12531200864C27 /* Assets.xcassets */; };
+		A5D6FD121D12531200864C27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D6FD101D12531200864C27 /* MainMenu.xib */; };
+		A5D6FD201D12532000864C27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D6FD1F1D12532000864C27 /* Cocoa.framework */; };
+		A5D6FD251D12532000864C27 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6FD241D12532000864C27 /* SourceEditorExtension.swift */; };
+		A5D6FD271D12532000864C27 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6FD261D12532000864C27 /* SourceEditorCommand.swift */; };
+		A5D6FD2B1D12532000864C27 /* XPAlignmentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5D6FD1D1D12532000864C27 /* XPAlignmentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5DF96921D12560800C2FD33 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF96911D12560800C2FD33 /* test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D6FD291D12532000864C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D6FD011D12531200864C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D6FD1C1D12532000864C27;
+			remoteInfo = XPAlignmentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5D6FD2F1D12532000864C27 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A5D6FD2B1D12532000864C27 /* XPAlignmentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5D6FD091D12531200864C27 /* XPAlignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPAlignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D6FD0C1D12531200864C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D6FD0E1D12531200864C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D6FD111D12531200864C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5D6FD131D12531200864C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D6FD1D1D12532000864C27 /* XPAlignmentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XPAlignmentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D6FD1F1D12532000864C27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A5D6FD231D12532000864C27 /* XPAlignmentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = XPAlignmentExtension.entitlements; sourceTree = "<group>"; };
+		A5D6FD241D12532000864C27 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		A5D6FD261D12532000864C27 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		A5D6FD281D12532000864C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DF96911D12560800C2FD33 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D6FD061D12531200864C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D6FD1A1D12532000864C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D6FD201D12532000864C27 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D6FD001D12531200864C27 = {
+			isa = PBXGroup;
+			children = (
+				A5D6FD0B1D12531200864C27 /* XPAlignment */,
+				A5D6FD211D12532000864C27 /* XPAlignmentExtension */,
+				A5D6FD1E1D12532000864C27 /* Frameworks */,
+				A5D6FD0A1D12531200864C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D6FD0A1D12531200864C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6FD091D12531200864C27 /* XPAlignment.app */,
+				A5D6FD1D1D12532000864C27 /* XPAlignmentExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D6FD0B1D12531200864C27 /* XPAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6FD0C1D12531200864C27 /* AppDelegate.swift */,
+				A5DF96911D12560800C2FD33 /* test.swift */,
+				A5D6FD0E1D12531200864C27 /* Assets.xcassets */,
+				A5D6FD101D12531200864C27 /* MainMenu.xib */,
+				A5D6FD131D12531200864C27 /* Info.plist */,
+			);
+			path = XPAlignment;
+			sourceTree = "<group>";
+		};
+		A5D6FD1E1D12532000864C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6FD1F1D12532000864C27 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5D6FD211D12532000864C27 /* XPAlignmentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6FD241D12532000864C27 /* SourceEditorExtension.swift */,
+				A5D6FD261D12532000864C27 /* SourceEditorCommand.swift */,
+				A5D6FD281D12532000864C27 /* Info.plist */,
+				A5D6FD221D12532000864C27 /* Supporting Files */,
+			);
+			path = XPAlignmentExtension;
+			sourceTree = "<group>";
+		};
+		A5D6FD221D12532000864C27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6FD231D12532000864C27 /* XPAlignmentExtension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D6FD081D12531200864C27 /* XPAlignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D6FD161D12531200864C27 /* Build configuration list for PBXNativeTarget "XPAlignment" */;
+			buildPhases = (
+				A5D6FD051D12531200864C27 /* Sources */,
+				A5D6FD061D12531200864C27 /* Frameworks */,
+				A5D6FD071D12531200864C27 /* Resources */,
+				A5D6FD2F1D12532000864C27 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D6FD2A1D12532000864C27 /* PBXTargetDependency */,
+			);
+			name = XPAlignment;
+			productName = XPAlignment;
+			productReference = A5D6FD091D12531200864C27 /* XPAlignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D6FD1C1D12532000864C27 /* XPAlignmentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D6FD2C1D12532000864C27 /* Build configuration list for PBXNativeTarget "XPAlignmentExtension" */;
+			buildPhases = (
+				A5D6FD191D12532000864C27 /* Sources */,
+				A5D6FD1A1D12532000864C27 /* Frameworks */,
+				A5D6FD1B1D12532000864C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPAlignmentExtension;
+			productName = XPAlignmentExtension;
+			productReference = A5D6FD1D1D12532000864C27 /* XPAlignmentExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D6FD011D12531200864C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = huangxinping;
+				TargetAttributes = {
+					A5D6FD081D12531200864C27 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5R843K7BF6;
+						DevelopmentTeamName = "Nanjing Aixiyou Network Science & Technology Co.,Ltd.";
+						ProvisioningStyle = Automatic;
+					};
+					A5D6FD1C1D12532000864C27 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5R843K7BF6;
+						DevelopmentTeamName = "Nanjing Aixiyou Network Science & Technology Co.,Ltd.";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5D6FD041D12531200864C27 /* Build configuration list for PBXProject "XPAlignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D6FD001D12531200864C27;
+			productRefGroup = A5D6FD0A1D12531200864C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D6FD081D12531200864C27 /* XPAlignment */,
+				A5D6FD1C1D12532000864C27 /* XPAlignmentExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D6FD071D12531200864C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D6FD0F1D12531200864C27 /* Assets.xcassets in Resources */,
+				A5D6FD121D12531200864C27 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D6FD1B1D12532000864C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D6FD051D12531200864C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D6FD0D1D12531200864C27 /* AppDelegate.swift in Sources */,
+				A5DF96921D12560800C2FD33 /* test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D6FD191D12532000864C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D6FD251D12532000864C27 /* SourceEditorExtension.swift in Sources */,
+				A5D6FD271D12532000864C27 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D6FD2A1D12532000864C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D6FD1C1D12532000864C27 /* XPAlignmentExtension */;
+			targetProxy = A5D6FD291D12532000864C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D6FD101D12531200864C27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D6FD111D12531200864C27 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D6FD141D12531200864C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D6FD151D12531200864C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A5D6FD171D12531200864C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XPAlignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iiseeuu.XPAlignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5D6FD181D12531200864C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XPAlignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iiseeuu.XPAlignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5D6FD2D1D12532000864C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPAlignmentExtension/XPAlignmentExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XPAlignmentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iiseeuu.XPAlignment.XPAlignmentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5D6FD2E1D12532000864C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPAlignmentExtension/XPAlignmentExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XPAlignmentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iiseeuu.XPAlignment.XPAlignmentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D6FD041D12531200864C27 /* Build configuration list for PBXProject "XPAlignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D6FD141D12531200864C27 /* Debug */,
+				A5D6FD151D12531200864C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D6FD161D12531200864C27 /* Build configuration list for PBXNativeTarget "XPAlignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D6FD171D12531200864C27 /* Debug */,
+				A5D6FD181D12531200864C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D6FD2C1D12532000864C27 /* Build configuration list for PBXNativeTarget "XPAlignmentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D6FD2D1D12532000864C27 /* Debug */,
+				A5D6FD2E1D12532000864C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D6FD011D12531200864C27 /* Project object */;
+}
